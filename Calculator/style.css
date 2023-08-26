@@ -1,0 +1,61 @@
+body{
+    background-image: url(rm312-kwan-01_2.jpg);
+    background-size: 1400px 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator{
+    background-color: transparent;
+    border: 5px solid rgb(25, 32, 87);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+#result{
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid rgb(13, 6, 154);
+    background-color: rgb(218, 227, 227);
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 88.5%;
+    text-align: right;
+    height: 1px;
+}
+
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button{
+    height: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: px;
+    border: 2px solid rgb(0, 13, 255);
+    cursor: pointer;
+    background-color: mistyrose;
+    position: relative;
+    transition: 0s ease-in;
+    z-index: 1;
+}
+
+button:hover{
+    background-color: rgba(158, 159, 167, 0);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blue, 0 0 25px blue, 0 0 50px gray, 0 0 200px yellow;
+}

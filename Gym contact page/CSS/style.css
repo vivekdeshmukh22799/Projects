@@ -1,0 +1,112 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(Images/H1nt7O.webp);
+    color: white;
+
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 3px;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 28px;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 500px;
+}
+
+.form-group input {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 100px;
+    margin: auto;
+}

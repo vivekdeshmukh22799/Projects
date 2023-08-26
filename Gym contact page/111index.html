@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Lugrasimo&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+    <style>
+    /* CSS rrset */
+        body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(Images/H1nt7O.webp) center;
+    color: white;
+
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 3px;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 28px;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 500px;
+}
+
+.form-group input {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+     
+    </style>
+
+</head>
+
+<body>
+
+    <header class="head">
+
+        <!-- left box for logo -->
+        <div class="left">
+
+            <img src="Images/gym logo.jpg" alt="">
+            <div>Fitness</div>
+        </div>
+
+
+
+        <!-- Mid for nav bar -->
+        <div class="mid">
+            <!-- Left side is for Nav bar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact US</a></li>
+            </ul>
+        </div>
+
+
+        <!-- right box for buttons-->
+        <div class="right">
+            <button class="btn">Call US</button>
+            <button class="btn">Email US</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Join the best GYM</h1>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Address">
+            </div>
+
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

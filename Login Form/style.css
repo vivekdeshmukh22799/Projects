@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(digital.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px 1400px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+form{
+    width: 200px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    width: 112%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+
+}
